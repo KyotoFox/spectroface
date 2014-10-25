@@ -7,3 +7,7 @@ Intrigued, I decided to try my hand at recreating the effect here on the web.
 ![Aphex Twin](img/aphexBW.png)
 
 Visit http://danielrapp.github.io/spectroface/ to see the effect.
+
+
+### This fork simply colorizes to the spectrogram like this:
+![Colors!](img/spectrogram-colorized.png)
