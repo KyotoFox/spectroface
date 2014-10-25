@@ -31,7 +31,7 @@ var drawSpectrogram = function(spectrogramSlice) {
   var relevantFrequencies = spectrogramSlice.length - 300;
   for (var i = 0; i < relevantFrequencies; i++) {
     var intensity = spectrogramSlice[i];
-    ctx.fillStyle = "rgb("+intensity+", "+intensity+", "+intensity+")";
+    ctx.fillStyle = "hsl("+Math.round((255-intensity) * (240.0/255.0))+", 100%, 50%)";
 
     var ratio = i / relevantFrequencies;
     var y = Math.round(ratio * window.canvas.height);
